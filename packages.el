@@ -62,3 +62,10 @@
 (package! lsp-tailwindcss)
 (package! crdt)
 (package! exotica-theme)
+(package! super-save)
+(package! org-reveal)
+(package! dash-at-point
+  :recipe `(:host github
+            :repo "ingtshan/dash-at-point"))
+(package! noccur)
+(package! sis)
