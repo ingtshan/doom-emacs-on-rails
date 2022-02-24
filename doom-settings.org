@@ -78,7 +78,7 @@ Loading plugins like rails routes, rails http status, etc.
 (load (expand-file-name "plugins/rails-routes.el" doom-private-dir))
 (load (expand-file-name "plugins/rails-i18n.el" doom-private-dir))
 
-(rails-i18n-global-mode)
+;; (rails-i18n-global-mode)
 (rails-routes-global-mode)
 #+end_src
 

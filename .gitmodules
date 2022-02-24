@@ -1,3 +1,15 @@
 [submodule "extends/mac-command.el"]
 	path = extends/mac-command
 	url = git@github.com:ingtshan/mac-command.el.git
+[submodule "extends/rails-i18n-search"]
+	path = extends/rails-i18n-search
+	url = git@github.com:ingtshan/rails-i18n-search.el-.git
+[submodule "extends/insert-gitmoji"]
+	path = extends/insert-gitmoji
+	url = git@github.com:ingtshan/insert-gitmoji.el.git
+[submodule "extends/rails-i18n"]
+	path = extends/rails-i18n
+	url = git@github.com:ingtshan/rails-i18n.el.git
+[submodule "third-party/gitmoji"]
+	path = third-party/gitmoji
+	url = git@github.com:carloscuesta/gitmoji.git

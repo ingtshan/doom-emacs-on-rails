@@ -69,3 +69,6 @@
             :repo "ingtshan/dash-at-point"))
 (package! noccur)
 (package! sis)
+;; (package! eglot)
+(package! prettier-js)
+(package! orgit)

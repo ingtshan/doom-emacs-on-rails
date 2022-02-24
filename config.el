@@ -1,5 +1,4 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-
 ;; to for add load-path recursion like -r
 (unless (boundp 'add-subdirs-to-load-path)
   (defun add-subdirs-to-load-path(dir)

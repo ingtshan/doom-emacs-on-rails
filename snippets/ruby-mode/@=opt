@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ruby-assign-instant-from-options
+# key: @=opt
+# --
+@$1 = options[:$1]$0
