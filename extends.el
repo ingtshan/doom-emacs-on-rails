@@ -48,8 +48,17 @@
 (require 'insert-gitmoji)
 (require 'insert-angular)
 
+(defun angularmoji-insert ()
+  (interactive)
+  (let* ((type (iangular-type-completing-read "(C-RET to skip) Insert Angular Type : "))
+         (scope (completing-read (concat "(C-RET to skip) " type "(<scope 1>,<scope 2>) ") nil))
+         (input (concat type (unless (equal scope "") (format "(%s)" scope)) ": "))
+         (emoji (gitmoji-completing-read (concat "(C-RET to skip) " input))))
+    (insert input (unless (equal emoji "") (concat emoji " ")))))
+
 (map! :leader "ig" 'gitmoji-insert-emoji)
 (map! :leader "ia" 'iangular-insert-segment)
+(map! :leader "iz" 'angularmoji-insert :desc "git-cz")
 (map! :leader "ii" 'rails-i18n-search-replace-regex-select-style)
 (map! :leader "ic" #'(lambda () (interactive) (unless (search-forward-regexp "\\cc") nil)) :desc "in chinese character")
 (map! :leader "nw" )
