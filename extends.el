@@ -46,8 +46,10 @@
 (require 'rails-i18n)
 
 (require 'insert-gitmoji)
+(rqeuire 'insert-angular)
 
 (map! :leader "ig" 'gitmoji-insert-emoji)
+(map! :leader "ia" 'iangular-insert-segment)
 (map! :leader "ii" 'rails-i18n-search-replace-regex-select-style)
 (map! :leader "ic" #'(lambda () (interactive) (unless (search-forward-regexp "\\cc") nil)) :desc "in chinese character")
 (map! :leader "nw" )

@@ -13,3 +13,6 @@
 [submodule "third-party/gitmoji"]
 	path = third-party/gitmoji
 	url = git@github.com:carloscuesta/gitmoji.git
+[submodule "extends/insert-angular"]
+	path = extends/insert-angular
+	url = git@github.com:ingtshan/insert-angular.el.git

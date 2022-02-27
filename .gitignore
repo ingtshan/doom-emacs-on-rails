@@ -12,3 +12,4 @@ user.org
 user.example.org
 user-settings.el
 doom-settings.el
+/flycheck_*
