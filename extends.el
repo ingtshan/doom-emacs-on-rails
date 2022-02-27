@@ -46,7 +46,7 @@
 (require 'rails-i18n)
 
 (require 'insert-gitmoji)
-(rqeuire 'insert-angular)
+(require 'insert-angular)
 
 (map! :leader "ig" 'gitmoji-insert-emoji)
 (map! :leader "ia" 'iangular-insert-segment)
